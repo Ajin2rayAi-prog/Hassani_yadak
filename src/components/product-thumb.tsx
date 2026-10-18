@@ -20,9 +20,13 @@ export function ProductThumb({
   className?: string;
 }) {
   if (image) {
+    // زیرمسیر دیپلوی (مثل /Hassani_yadak در GitHub Pages) از متغیر محیطی خوانده می‌شود؛
+    // در دیپلوی اصلی (دامنهٔ ریشه) خالی است و مسیر دست‌نخورده می‌ماند.
+    const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+    const src = image.startsWith("/") ? `${base}${image}` : image;
     return (
       // eslint-disable-next-line @next/next/no-img-element
-      <img src={image} alt={alt} className={cn("h-full w-full object-cover", className)} />
+      <img src={src} alt={alt} className={cn("h-full w-full object-cover", className)} />
     );
   }
 

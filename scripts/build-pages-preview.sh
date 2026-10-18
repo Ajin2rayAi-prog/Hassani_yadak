@@ -213,6 +213,8 @@ EOF
 
 # ---------- ۵) بیلد ----------
 rm -rf .next
-NEXT_PUBLIC_SITE_URL=https://ajin2rayai-prog.github.io/Hassani_yadak npm run build
+export NEXT_PUBLIC_SITE_URL=https://ajin2rayai-prog.github.io/Hassani_yadak
+export NEXT_PUBLIC_BASE_PATH=/Hassani_yadak
+npm run build
 
 echo "✓ بیلد موفق — خروجی در out/"
