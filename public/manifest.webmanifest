@@ -1,0 +1,14 @@
+{
+  "name": "حسنی | لوازم یدکی خودرو",
+  "short_name": "حسنی",
+  "description": "تأمین تخصصی تجهیزات و ملزومات پزشکی؛ مدارهای تنفسی و بیهوشی، فیلتر، ماسک و لوازم مصرفی",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a523d",
+  "theme_color": "#127a5c",
+  "dir": "rtl",
+  "lang": "fa",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
