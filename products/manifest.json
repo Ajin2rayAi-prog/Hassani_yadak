@@ -1,0 +1,30 @@
+{
+  "circuits": [
+    "/products/circuits-1.jpg",
+    "/products/circuits-2.jpg",
+    "/products/circuits-3.jpg"
+  ],
+  "filters": [
+    "/products/filters-1.jpg"
+  ],
+  "airway": [
+    "/products/airway-1.jpg",
+    "/products/airway-2.jpg",
+    "/products/airway-3.jpg"
+  ],
+  "dressing": [
+    "/products/dressing-1.jpg",
+    "/products/dressing-2.jpg",
+    "/products/dressing-3.jpg"
+  ],
+  "infusion": [
+    "/products/infusion-1.jpg",
+    "/products/infusion-2.jpg",
+    "/products/infusion-3.jpg"
+  ],
+  "neonatal": [
+    "/products/neonatal-1.jpg",
+    "/products/neonatal-2.jpg",
+    "/products/neonatal-3.jpg"
+  ]
+}
